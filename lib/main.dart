@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:expense_tracker/widgets/expenses.dart';
 
 void main() {
   runApp(
     const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello, wordl!'),
-        ),
-      ),
+      home: Expenses(),// Todo: Add main Widget here...
     ),
   );
 }
